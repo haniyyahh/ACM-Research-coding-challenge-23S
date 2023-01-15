@@ -50,7 +50,7 @@ You can use any programming language, framework, or library you want, but we rec
 5. Make sure your GitHub repo has everything important, including your report, any code you used, graphs, etc. You should not be working on this after the deadline (Feb 2).
 
 ## Links referenced
-- (My previous ML exploration projects)[https://github.com/haniyyahh/ML_Portfolio]
+- [My previous ML exploration projects](https://github.com/haniyyahh/ML_Portfolio)
 
 --------------------------------------------------------------------------------------
 ## No collaboration policy
