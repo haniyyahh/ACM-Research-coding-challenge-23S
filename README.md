@@ -2,11 +2,11 @@
 
 ![image](https://user-images.githubusercontent.com/72369124/211179527-0ee60624-2794-4e13-bf7f-f88b5c950e44.png)
 
-## IMPORTANT: Make sure to create a fork of this repo and share the link on your ACM Research Application Typeform submission. The coding challenge does not have to be completed at the time of you submitting the Typeform application (unless you completed the application last minute!)
+This semester's challenge is especially open-ended.  on Kaggle called "Star dataset to predict star types".  
 
-Note: If it's getting down to the deadline (February 1st at 11:59 PM CST) and you don't think you will be able to finish your project on time, just complete whatever you have! Please do not work on the challenge after the deadline, but if you do need a few extra hours, make sure your challenge is done before interviews begin tomorrow (Feb 2nd).
-
-This semester's challenge is especially open-ended. [Please refer to this dataset](https://www.kaggle.com/datasets/deepu1109/star-dataset) on Kaggle called "Star dataset to predict star types".  It contains information about 240 stars and various properties taken from "Stars and Galaxies" by Seeds and Backman. Each row contains 7 pieces of information about a star, such as its temperature, luminosity, radius, absolute magnitude, star type, star color, and spectral class.
+## Dataset used
+["Star dataset to predict star types"](https://www.kaggle.com/datasets/deepu1109/star-dataset) from Kaggle.
+It contains information about 240 stars and various properties taken from "Stars and Galaxies" by Seeds and Backman. Each row contains 7 pieces of information about a star, such as its temperature, luminosity, radius, absolute magnitude, star type, star color, and spectral class.
 
 Please note that the star type, denoted as integers, are translated as the following:
 - Brown Dwarf -> Star Type = 0
@@ -48,6 +48,8 @@ You can use any programming language, framework, or library you want, but we rec
 4. You may have to "clone" the fork you made to edit files locally on your computer and "push" them to GitHub. Learn how to do that [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 5. Make sure your GitHub repo has everything important, including your report, any code you used, graphs, etc. You should not be working on this after the deadline (Feb 2).
+## Language and Frameworks used
+Python: pandas, numpy, sklearn
 
 ## Problems set out to solve
 The problems I set out to solve were what the most common star type was and how each star type compared to each other in terms of temperature, radius and luminmosity.
