@@ -49,6 +49,10 @@ You can use any programming language, framework, or library you want, but we rec
 
 5. Make sure your GitHub repo has everything important, including your report, any code you used, graphs, etc. You should not be working on this after the deadline (Feb 2).
 
+## Problems set out to solve
+The problems I set out to solve were what the most common star type was and how each star type compared to each other in terms of temperature, radius and luminmosity.
+I also trained a logistic regression model on the dataset to see how accurately it can predict star types (can the model accurately identify what is a dwarf planet and what is not using temperature and luminosity as factors?).
+
 ## Links referenced
 - [My previous ML exploration projects](https://github.com/haniyyahh/ML-Portfolio)
 
