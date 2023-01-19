@@ -31,29 +31,27 @@ Bonus: Can you find the row of data that most closely resembles our star, the Su
 
 However, we strongly encourage you to come up with your own problem to solve! This is for you to showcase your skills!
 
-You can use any programming language, framework, or library you want, but we recommend [creating a notebook in Kaggle](https://www.kaggle.com/docs/notebooks) and using Python. This will run in your browser, interlaces code with documentation, allows you to import the Stars dataset easily by pressing the "Add data" button, and gives you access to Python's high-quality, high-level libraries for working with data. [Learn more about data science in Python.](https://www.w3schools.com/datascience/ds_python.asp)
 
----
-
-## How to create your solution repo **(COMPLETE STEPS #1 and #2 BEFORE YOU SUBMIT YOUR APPLICATION, AND PUT THE LINK IN THE APPLICATION)**
-
-1. [Create a **public** fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of this repository and name it  `ACM-Research-coding-challenge-23S` (click the "Fork" button in the top right).
-
-2. Put the link to your fork in your ACM Research application in the question where it asks to do so. **This can just be a empty repo as you have until February 2 to work on your coding challenge in this repository**
 
 3. Replace this README file with a description ([written in Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)) of your solution. Regardless of your success, describe the problem you set out to solve and how you did it. Split it up into sections with headers, and, if relevant, include figures.
 
-4. Make sure to include all relevant files in your fork. If you made the project in a Kaggle notebook, click **File** → **Download Notebook** to download it as an `.ipynb` file.
-
-4. You may have to "clone" the fork you made to edit files locally on your computer and "push" them to GitHub. Learn how to do that [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 5. Make sure your GitHub repo has everything important, including your report, any code you used, graphs, etc. You should not be working on this after the deadline (Feb 2).
+
 ## Language and Frameworks used
-Python: pandas, numpy, sklearn
+Python: pandas, numpy, sklearn, seaborn
+These frameworks were used to statistically and graphically explore the dataset, as well as train the data.
 
 ## Problems set out to solve
-The problems I set out to solve were what the most common star type was and how each star type compared to each other in terms of temperature, radius and luminmosity.
+The problems I set out to solve: 
+- What is the most common star type?
+- How do each star type compare to each other in terms of temperature, radius and luminmosity?
+- Is there a machine learning model that can accurately identify what is a dwarf planet and what is not using temperature and luminosity as factors?
 I also trained a logistic regression model on the dataset to see how accurately it can predict star types (can the model accurately identify what is a dwarf planet and what is not using temperature and luminosity as factors?).
+
+## What was learned
+- There was no singular, common star type within this dataset, but rather an equal number of each
+- The logistic regression model had a 0.96 accuracy score in predicting the different stars, making it a suitable model to train this dataset
 
 ## Links referenced
 - [My previous ML exploration projects](https://github.com/haniyyahh/ML-Portfolio)
@@ -63,16 +61,3 @@ I also trained a logistic regression model on the dataset to see how accurately 
 
 **You may not collaborate with anyone on this challenge.** You _are_ allowed (and encouraged) to use internet documentation. If you use existing code (either from Github, Stack Overflow, or other sources), **please cite your sources in the README**.
 
-## Timing
-
-Please don't spend too long on this project: **60 to 90 minutes** is reasonable. It's okay to put more time into your submission than that, but we don't expect you to get that much done; we really don't want this challenge to be a burden!
-
-If you're *completely new* to this kind of project, however, it will likely take you more than 90 minutes. This is a *densely useful* project to go through (you will learn a lot), so we believe this is justified.
-
-## Assessment criteria
-
-Submissions will be evaluated holistically, in combination with the rest of your application. We will consider your effort, use of external resources, how you approached the problem, and presentation, among other considerations.
-
-## Support and questions
-
-Feel free to ask for clarifications in the #research-qna channel in the [ACM UTD Discord server](https://discord.gg/nJxRdKdG4d)! You can also directly message ACM Research Co-Directors Pranav Nair or Sisi Aarukapalli-Rose on the ACM Discord server.
