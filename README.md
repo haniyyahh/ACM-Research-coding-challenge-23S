@@ -45,12 +45,16 @@ These frameworks were used to statistically and graphically explore the dataset,
 ## Problems set out to solve
 The problems I set out to solve: 
 - What is the most common star type?
-- How do each star type compare to each other in terms of temperature, radius and luminmosity?
+- How do each star type compare to each other in terms of temperature, radius and luminosity?
 - Is there a machine learning model that can accurately identify what is a dwarf planet and what is not using temperature and luminosity as factors?
 I also trained a logistic regression model on the dataset to see how accurately it can predict star types (can the model accurately identify what is a dwarf planet and what is not using temperature and luminosity as factors?).
 
 ## What was learned
 - There was no singular, common star type within this dataset, but rather an equal number of each
+- ![image](https://user-images.githubusercontent.com/96028048/213610095-2dab6528-053b-42ec-8c44-ff856839efbc.png)
+- ![image](https://user-images.githubusercontent.com/96028048/213610124-a1a0f0ab-796d-4d8a-8cc4-41be49f2abb2.png)
+- ![image](https://user-images.githubusercontent.com/96028048/213610183-8b475bbf-f35e-46fd-b9a1-6dc666f4f342.png)
+- The graphs above were plotted using seaborn, and highlight the differences amongst all star types in terms of mean temperature, radius and luminosity. Hypergiant stars had the highest mean radius and luminosity, while the main sequence stars had the highest mean temperature
 - The logistic regression model had a 0.96 accuracy score in predicting the different stars, making it a suitable model to train this dataset
 
 ## Links referenced
